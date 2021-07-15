@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/fetchStudents",
+      "lambdaFunction": "fetchStudents",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/fetchStudents"
+    }
+  ],
+  "resourceName": "fetchStudents",
+  "apiName": "fetchStudents",
+  "functionArns": [
+    {
+      "lambdaFunction": "fetchStudents"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-sampleawsapp-dev-172552-authRole",
+    "unAuthRoleName": "amplify-sampleawsapp-dev-172552-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "fetchStudents",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/fetchTodos",
+      "lambdaFunction": "fetchTodos2",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/fetchTodos"
+    }
+  ],
+  "resourceName": "fetchTodos2",
+  "apiName": "fetchTodos2",
+  "functionArns": [
+    {
+      "lambdaFunction": "fetchTodos2"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-sampleawsapp-dev-172552-authRole",
+    "unAuthRoleName": "amplify-sampleawsapp-dev-172552-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "fetchTodos2",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
